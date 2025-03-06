@@ -1,0 +1,14 @@
+# start tint2 panel
+tint2 &
+
+# start a compositor for transparency and shadows (optional)
+copmton &
+
+# set background
+feh --bg-scale ~/Downloads/WALLPAPER.png &
+
+# autostart nm-applet
+nm-applet &
+
+# start gnome keyring
+eval $(gnome-keyring-daemon --start --components=pkcs11,secrets,ssh,gpg) &
