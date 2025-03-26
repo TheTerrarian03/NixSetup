@@ -5,7 +5,7 @@ tint2 &
 copmton &
 
 # set background
-feh --bg-scale ~/Downloads/WALLPAPER.png &
+feh --bg-scale ~/.config/WALLPAPER.png &
 
 # autostart nm-applet
 nm-applet &
