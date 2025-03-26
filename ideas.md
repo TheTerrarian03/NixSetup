@@ -11,6 +11,17 @@
 - OpenBox Customization Example: 
 - Tint2 Customization Docs: https://gitlab.com/o9000/tint2/blob/master/doc/tint2.md#example-configuration
 
+## Idea Resources
+
+- InfiniteMac: https://infinitemac.org/
+- My Pinterest Board of Retro OS stuff: https://pin.it/2XkncHt7L
+- Apple Fonts/Typography: https://apple.fandom.com/wiki/Apple_typography
+- NextBox Monochrome Theme for OpenBox: https://www.box-look.org/p/2160769
+
+## Possible Programs/Packages/Managers/etc
+
+- Starship Shell stuff: https://starship.rs/
+
 ## Basic System Functionality
 
 I need basic functionality for this system because I do intend to use this in the real world. For example:
