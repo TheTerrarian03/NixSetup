@@ -1,0 +1,3 @@
+"Basic",./NixConfigs/basic.nix,"VERY basic setup for a NixOS install"
+"Minecraft Server",./NixConfigs/mc_server.nix,"Basic setup for running a minecraft server"
+"Everyday",./NixConfigs/everyday.nix,"For everyday use, has openbox window manager and lots of normal tools"
