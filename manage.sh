@@ -1,5 +1,7 @@
 #!/run/current-system/sw/bin/bash
 
+. ./util.sh
+
 # repo manager
 function repo_manager {
     while true; do
@@ -10,8 +12,9 @@ function repo_manager {
         echo
         echo "Choose an option:"
         echo "s. show status -- \`git status\`"
+        echo "d. show diff between head and main -- \`git diff HEAD\`"
         echo "f. fetch and pull -- \`git fetch && git pull\`"
-        echo "a. add all changes -- \`git add .\`"
+        echo "a. add all changes -- \`git add .; git status\`"
         echo "c. commit changes -- \`git commit -m \$MSG\`"
         echo "p. push changes -- \`git push\`"
         echo "q. exit git manager"
@@ -25,11 +28,15 @@ function repo_manager {
             s)
                 git status
                 ;;
+            d)
+                git diff HEAD
+                ;;
             f)
                 git fetch && git pull
                 ;;
             a)
                 git add .
+                git status
                 ;;
             c)
                 echo "Please enter what you want your commit message to be:"

@@ -1,0 +1,21 @@
+General Command Manuals
+- entire bash reference manual: https://www.gnu.org/software/bash/manual/bash.html
+- read man page: https://ss64.com/bash/read.html
+- echo man page: https://ss64.com/bash/echo.html
+
+Program Flow References
+- if/elif/else q: https://stackoverflow.com/questions/68622119/how-to-use-if-elif-else-in-bas
+- arrays: https://opensource.com/article/18/5/you-dont-know-bash-intro-bash-arrays
+- array len: https://stackoverflow.com/questions/1886374/how-to-find-the-length-of-an-array-in-shell
+- array pass in: https://askubuntu.com/questions/674333/how-to-pass-an-array-as-function-argument
+- string manipulation: https://tldp.org/LDP/abs/html/string-manipulation.html
+
+Low-level or Special References
+- ANSI escape codes: https://gist.github.com/fnky/458719343aabd01cfb17a3a4f7296797
+- IFS: https://stackoverflow.com/questions/26479562/what-does-ifs-do-in-this-bash-loop-cat-file-while-ifs-read-r-line-do
+
+Code people have written that is useful
+- arrow key menu ref: https://unix.stackexchange.com/questions/146570/arrow-key-enter-menu
+
+How to do a thing I might want to do
+- git diff between files: https://stackoverflow.com/questions/16683121/git-diff-between-two-different-files

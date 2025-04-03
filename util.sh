@@ -116,10 +116,9 @@ function choice_menu() {
 #   echo "$word"
 function toggle_option_string() {
     old=$@
-    # echo "$old"
     star="*"
     space=" "
-    # echo `expr index "$1" "*"`
+    
     if [ `expr index "$1" "*"` -eq 2 ]; then
         old=${old/"$star"/"$space"}
     elif [ `expr index "$1" "*"` -eq 0 ]; then
